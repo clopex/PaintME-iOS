@@ -12,6 +12,8 @@
 		236622571CABBF8D001BE397 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 236622551CABBF8D001BE397 /* Main.storyboard */; };
 		236622591CABBF8D001BE397 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 236622581CABBF8D001BE397 /* Assets.xcassets */; };
 		2366225C1CABBF8D001BE397 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2366225A1CABBF8D001BE397 /* LaunchScreen.storyboard */; };
+		236622641CABCE4E001BE397 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236622631CABCE4E001BE397 /* SettingsVC.swift */; };
+		236622661CAC043A001BE397 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236622651CAC043A001BE397 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		236622581CABBF8D001BE397 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2366225B1CABBF8D001BE397 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2366225D1CABBF8D001BE397 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		236622631CABCE4E001BE397 /* SettingsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		236622651CAC043A001BE397 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +58,10 @@
 		236622501CABBF8D001BE397 /* Paint Me */ = {
 			isa = PBXGroup;
 			children = (
+				236622651CAC043A001BE397 /* Constants.swift */,
 				236622511CABBF8D001BE397 /* AppDelegate.swift */,
 				236622531CABBF8D001BE397 /* ViewController.swift */,
+				236622631CABCE4E001BE397 /* SettingsVC.swift */,
 				236622551CABBF8D001BE397 /* Main.storyboard */,
 				236622581CABBF8D001BE397 /* Assets.xcassets */,
 				2366225A1CABBF8D001BE397 /* LaunchScreen.storyboard */,
@@ -138,6 +144,8 @@
 			files = (
 				236622541CABBF8D001BE397 /* ViewController.swift in Sources */,
 				236622521CABBF8D001BE397 /* AppDelegate.swift in Sources */,
+				236622641CABCE4E001BE397 /* SettingsVC.swift in Sources */,
+				236622661CAC043A001BE397 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +258,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Paint Me/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "test.Paint-Me";
@@ -261,6 +270,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Paint Me/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "test.Paint-Me";
