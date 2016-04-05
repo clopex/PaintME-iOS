@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>ExpandingMenu-ExpandingMenu.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>ExpandingMenu.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Paint Me.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>2450E2DA3A7E3AA277D7C7290DDC055C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7CF2EB00E814A76119A683FE9541F755</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9EDB241CA84062D18B45D12341F01D5B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BAFCD7EEBCF2A302024382EB9B2C9302</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

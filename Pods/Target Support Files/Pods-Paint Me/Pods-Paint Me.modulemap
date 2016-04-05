@@ -1,0 +1,6 @@
+framework module Pods_Paint_Me {
+  umbrella header "Pods-Paint Me-umbrella.h"
+
+  export *
+  module * { export * }
+}
